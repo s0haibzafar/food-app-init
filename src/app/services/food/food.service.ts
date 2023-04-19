@@ -17,7 +17,7 @@ export class FoodService {
         price: 10,
         favorite: false,
         origin: ['italy'],
-        star:4.5,
+        star:4.0,
         imageUrl:'./assets/food5.jpg',
         tags:['FastFood','Pizza','Lunch']
       },
@@ -28,7 +28,7 @@ export class FoodService {
         price: 20,
         favorite: true,
         origin: ['persian', 'middle east', 'china'],
-        star:4.7,
+        star:4.5,
         imageUrl:'./assets/food3.jpg',
         tags:['SlowFood','Lunch']
       }
