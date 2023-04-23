@@ -1,4 +1,4 @@
 <div>
-    <input type="text" placeholder="Search Food From AFC Fast Food" [value]="searchItem">
-    <button>Search Food</button>
+    <input type="text" placeholder="Search Food From AFC Fast Food" [(ngModel)]="searchItem">
+    <button (click)="search()">Search Food</button>
 </div>
