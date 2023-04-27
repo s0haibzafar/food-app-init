@@ -17,6 +17,10 @@ export class FoodService {
     }
   }
 
+  getFoodById(id: number):Foods{
+    return this.getAll().find(food => food.id == id)!;
+  }
+
   getAllTags():Tag[]{
     return[
       {name : 'All', counts : 14},
