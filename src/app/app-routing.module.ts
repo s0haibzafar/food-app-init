@@ -17,7 +17,7 @@ const routes: Routes = [
     component:HomeComponent
   },
   {
-    path :'food:id',
+    path :'food/:id',
     component:FoodPageComponent
   }
 ];
