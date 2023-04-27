@@ -1,3 +1,6 @@
 <div *ngIf="tagData">
     <a *ngFor="let item of tagData" routerLink="/tag/{{item.name}}" >{{item.name}}({{item.counts}})</a>
 </div>
+<div *ngIf="foodPageTage">
+    <a *ngFor="let item of foodPageTage" routerLink="/tag/{{item}}" >{{item}}</a>
+</div>
