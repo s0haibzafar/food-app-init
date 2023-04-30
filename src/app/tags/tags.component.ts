@@ -11,6 +11,10 @@ export class TagsComponent implements OnInit {
 
   @Input()
   foodPageTage?:string[];
+
+  @Input()
+  justifyContent:string = 'center';
+
   tagData?: Tag[] = [];
 
   constructor(private fs : FoodService) { }
