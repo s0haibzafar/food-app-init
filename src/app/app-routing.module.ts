@@ -22,7 +22,7 @@ const routes: Routes = [
     component:FoodPageComponent
   },
   {
-    path :'card-page',
+    path :'cart-page',
     component:CartPageComponent
   }
 ];
