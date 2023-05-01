@@ -16,6 +16,11 @@
                 <option >4</option>
             </select>
         </div>
-        
+        <div>
+            {{ cartItem.price | currency }}
+        </div>
+        <div>
+            <button class="removebtn" (click)="removeFromCart(cartItem)"  >Remove</button>
+        </div>
     </li>
 </ul>
