@@ -16,6 +16,8 @@ export class CartPageComponent implements OnInit {
   constructor(private cartService: CartService, private fs: FoodService) {
     let food = this.fs.getAll();
     this.cartService.addToCart(food[1]);
+    this.cartService.addToCart(food[0]);
+
     this.setCart();
    }
 
