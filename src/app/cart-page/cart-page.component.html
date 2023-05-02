@@ -1,3 +1,4 @@
+<div class="container">
 <ul>
     <li *ngFor="let cartItem of cart.items">
         <div>
@@ -27,4 +28,5 @@
 <div class="checkout" >
     <div class="food-count" >{{ cart.items.length }}</div>
     <div class="total-price" >{{ cart.totalPrice | currency }}</div>
+</div>
 </div>
