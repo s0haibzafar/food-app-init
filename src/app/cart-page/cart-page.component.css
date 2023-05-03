@@ -34,6 +34,32 @@ ul li img{
     border-radius:  100rem;
     object-fit: cover;
 }
+ul li div{
+    padding: 1rem;
+}
+
 ul li div:not(:first-child){
   flex-basis: 18%;
+}
+
+ul li select{
+    width: 4rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightcoral;
+    font-weight: 100;
+}
+
+ul .remove-btn{
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    padding: .5rem;
+    opacity: .7;
+    color: rgb(255, 115, 0);
+}
+
+ul .remove-btn:hover{
+  opacity: 1;
+  cursor: pointer;
 }
